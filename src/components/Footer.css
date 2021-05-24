@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+footer {
+    color: white;
+    line-height: 1.5;
+    
+}
+
+footer .footer-up {
+    padding-top: 20px;
+}
+
+.footer-up .typography {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+}
+.footer-up p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.footer-up .location{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer-up ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* .footer-up ul li {
+    padding-left: 8px;
+} */
+
+.footer-up ul li a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.footer-up ul li i {
+    padding-right: 8px;
+}
+
+.social_footer_ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.social_footer_ul li {
+  padding-left: 8px;
+}
+.social_footer_ul li a {
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li i {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
+.footer-1 p {
+  text-align: center;
+  font-size: .8rem;
+}
+
+footer ul li a:hover {
+    color: gray;
+    transform: scale(1.5)
+}
+
+@media screen and (max-width: 576px) {
+    .footer-up ul.responsive-link,  .footer-up ul.responsive-contact{
+      display: flex;
+    }
+    .footer-up ul.responsive-link li,  .footer-up ul.responsive-contact li{
+        padding-left: 8px;
+      }
+      .footer-up ul.responsive-link li a,  .footer-up ul.responsive-contact li a{
+        font-size: .75rem;
+      }
+
+      .footer-up .quick-link, .footer-up .contact-link, .footer-up .contact-link ul{
+          text-align: center;
+          justify-content: center;
+      }
+
+      .footer-up .contact-link ul a i {
+          text-align: center;
+      }
+
+      .social_footer_ul li i {
+        width: 15px;
+        height: 15px;
+      }
+
+      .social_footer_ul li a {
+        color: #ffffff;
+        border: none;
+        padding: 5px;
+      }
+
+      .footer-1 p {
+        font-size: .6rem;
+      }
+  }
+  
