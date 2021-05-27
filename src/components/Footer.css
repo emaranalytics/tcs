@@ -8,7 +8,15 @@ footer {
 
 footer .footer-up {
     padding-top: 20px;
+    
 }
+
+footer .footer-up .left-side {
+  padding-left: 30px;
+  
+}
+
+
 
 .footer-up .typography {
     font-family: 'Fjalla One', sans-serif;
@@ -79,7 +87,14 @@ footer ul li a:hover {
     border: 1.5px solid lightgray;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 576px) {
+  footer .footer-up .quick-link {
+    padding-left: 80px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
     .footer-up ul.responsive-link,  .footer-up ul.responsive-contact{
       display: flex;
       justify-content: center;
@@ -88,7 +103,7 @@ footer ul li a:hover {
         padding-left: 8px;
       }
       .footer-up ul.responsive-link li a,  .footer-up ul.responsive-contact li a{
-        font-size: .75rem;
+        font-size: .85rem;
         font-weight: 500;
       }
 

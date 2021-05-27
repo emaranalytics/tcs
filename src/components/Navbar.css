@@ -36,3 +36,7 @@
   font-weight: 400;
   padding: 5px 0;
 }
+
+.navbar .nav-link:hover {
+  font-weight: 600;
+}
