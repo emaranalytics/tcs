@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import "./Footer.css";
 
@@ -34,13 +35,13 @@ const Footer = () => {
           <div class="col-sm-3 quick-link">
             <h5>Quick Links</h5>
             <ul class="responsive-link">
-                <li><a href="http://webenlance.com">Home</a></li>
-                <li><a href="http://webenlance.com">Services</a></li>
-                <li><a href="http://webenlance.com">Portfolio</a></li>
-                <li><a href="http://webenlance.com">Skills</a></li>
-                <li><a href="http://webenlance.com">About</a></li>
-                <li><a href="http://webenlance.com">Blog</a></li>
-                <li><a href="http://webenlance.com">Hire Me</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/service">Services</Link></li>
+                <li><Link to="/portfolio">Portfolio</Link></li>
+                <li><Link to="/skill">Skills</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/hireme">Hire Me</Link></li>
             </ul>
           </div>
 

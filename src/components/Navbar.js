@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import "./Navbar.css";
 
@@ -6,9 +7,9 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">
+        <Link class="navbar-brand" to="/">
           Think Code Sleep
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,28 +23,28 @@ const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#home">
+            <Link class="nav-link active" to="/">
               Home
-            </a>
-            <a class="nav-link" href="#home">
+            </Link>
+            <Link class="nav-link" to="/service">
               Services
-            </a>
-            <a class="nav-link" href="#home">
+            </Link>
+            <Link class="nav-link" to="/portfolio">
               Portfolio
-            </a>
-            <a class="nav-link" href="#home">
+            </Link>
+            <Link class="nav-link" to="/skill">
               Skills
-            </a>
-            <a class="nav-link" href="#home">
+            </Link>
+            <Link class="nav-link" to="/about">
               About
-            </a>
-            <a class="nav-link" href="#home">
+            </Link>
+            <Link class="nav-link" to="/blog">
               Blog
-            </a>
+            </Link>
           </div>
           <div class="navbar-nav ms-auto">
             <button type="button" class="btn btn-warning">
-              Hire Me
+              <Link to="/hireme" style={{textDecoration: "none"}}>Hire Me</Link>
             </button>
           </div>
         </div>
