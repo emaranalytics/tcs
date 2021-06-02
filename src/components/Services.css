@@ -1,0 +1,174 @@
+.services {
+    position: relative;
+    background-color: #f4f6f7;
+    padding: 60px 0;
+}
+
+
+/* text and content */
+.services .section-title .title {
+  font-size: 2rem;
+ 
+  color: black;
+  font-weight: 600;
+ 
+}
+
+.services .section-title .text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #6c6c6c;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.services .services-content .services-content {
+  padding-left: 18px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .services .services-content .services-content {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services .services-content .services-content {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .services .services-content .services-content {
+    padding-left: 15px;
+    padding-top: 0;
+  }
+}
+
+.services .services-content .services-content .services-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+  color: #121212;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services .services-content .services-content .services-title {
+    font-size: 22px;
+  }
+}
+
+.services .services-content .services-content .text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #121212;
+  margin-top: 8px;
+}
+
+
+/* icon */
+.services .services-content .services-icon i {
+  font-size: 54px;
+  color: #0067f4;
+}
+
+.services .services-content .services-icon i.fa-users {
+  font-size: 42px;
+  color: #0067f4;
+}
+
+.services .services-content .services-icon i.fa-laptop-code {
+  font-size: 48px;
+  color: #0067f4;
+}
+
+/* services image */
+.services .services-image {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-right: 30px;
+  }
+
+
+/* services image media query */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .services .services-image {
+      width: 35%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .services .services-image {
+      width: 34%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services .services-image {
+      position: relative;
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .services .services-image {
+      position: relative;
+      width: 60%;
+      padding-left: 15px;
+      padding-right: 16px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .services .services-image {
+      position: relative;
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .services .services-content .services-icon i {
+      font-size: 32px;
+      color: #0067f4;
+    }
+
+    .services .services-content .services-icon i.fa-users {
+      font-size: 30px;
+      color: #0067f4;
+    }
+    
+    .services .services-content .services-icon i.fa-laptop-code {
+      font-size: 30px;
+      color: #0067f4;
+    }
+  }
+  
+  .services .services-image .image {
+    max-width: 380px;
+    width: 100%;
+    margin-left: 30px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services .services-image .image {
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .services .services-image .image {
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+  }
+
+.services .services-image .image img {
+    width: 100%;
+
+  }
